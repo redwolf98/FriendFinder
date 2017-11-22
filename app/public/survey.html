@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey - Homework 13 - ExpressJS</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3>Survey Questions</h3>
+            <h4>How much would you enjoy the following activities?</h4>
+            <hr>
+            <h3><strong>About You</strong></h3>
+            <h4>Name (Required)</h4>
+            <input type="text" id="name" class="form-control" required>
+            <h4><strong>Link to Photo</strong></h4>
+            <input type="text" id="photo" class="form-control" required>
+            <hr>
+
+            <h3><strong>Question 1</strong></h3>
+            <h4>Online First-Person Shooter Marathon</h4>
+            <div class="btn-group questionOne" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+
+            <h3><strong>Question 2</strong></h3>
+            <h4>Frisbee Golf</h4>
+            <div class="btn-group questionTwo" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1"  value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+
+            <h3><strong>Question 3</strong></h3>
+            <h4>Bungee Jumping</h4>
+            <div class="btn-group questionThree" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1"  value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+
+            <h3><strong>Question 4</strong></h3>
+            <h4>Full-Contact Football</h4>
+            <div class="btn-group questionFour" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1"  value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+
+            <h3><strong>Question 5</strong></h3>
+            <h4>Hiking</h4>
+            <div class="btn-group questionFive" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+            
+            <h3><strong>Question 6</strong></h3>
+            <h4>Board-Game Night</h4>
+            <div class="btn-group questionSix" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+            
+            <h3><strong>Question 7</strong></h3>
+            <h4>Bar Hopping</h4>
+            <div class="btn-group questionSeven" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+            
+            <h3><strong>Question 8</strong></h3>
+            <h4>Renaissance Faire</h4>
+            <div class="btn-group questionEight" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+            
+            <h3><strong>Question 9</strong></h3>
+            <h4>Beer Pong</h4>
+            <div class="btn-group questionNine" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+            
+            <h3><strong>Question 10</strong></h3>
+            <h4>Ski Trip</h4>
+            <div class="btn-group questionTen" data-toggle="buttons">
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="1" id="q1-1" autocomplete="off"> 1 - Never!
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="2" id="q1-2" autocomplete="off"> 2
+                </label>
+                <label class="btn btn-primary active">
+                    <input type="radio" name="question1" value="3" id="q1-3" autocomplete="off"> 3 - If someone asks me to...
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="4" id="q1-4" autocomplete="off"> 4
+                </label>
+                <label class="btn btn-primary">
+                    <input type="radio" name="question1" value="5" id="q1-5" autocomplete="off"> 5 - Absolutely!
+                </label>
+            </div>
+            <br><br>
+
+            
+            <button type="submit" class="btn btn-dark btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Submit
+            </button>
+
+
+            <footer class="footer">
+                <p>
+                    <a href="/api/friends">API Friends Object</a>
+                    | 
+                    <a href="https://github.com/redwolf98/FriendFinder.git">GitHub Repository</a>
+                </p>
+            </footer>
+
+        </div>
+
+        <div id="bestMatchModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+            
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" style="text-align: center;"><strong>Best Match</strong></h2>
+                        <button type="button" class="close" data-dismiss="modal">×</button>                        
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                        <h2 id="matchName"></h2>
+                        <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+            
+                </div>
+            </div>
+
+
+
+
+        <script type="text/javascript">
+            
+            function allDataEntered(){
+                var allDataEntered = true;
+                $(".form-control").each(function(){
+                    if($(this).val() === ''){
+                        allDataEntered = false;
+                    }                   
+                });
+
+                return allDataEntered;
+            }
+
+            $("#submit").on("click", function(){
+                if(allDataEntered()){
+
+                    var userAnswers = {
+                        name: $("#name").val(),
+                        photo: $("#photo").val(),
+                        scores: [$(".questionOne > label.active > input").attr("value")
+                                ,$(".questionTwo > label.active > input").attr("value")
+                                ,$(".questionThree > label.active > input").attr("value")
+                                ,$(".questionFour > label.active > input").attr("value")
+                                ,$(".questionFive > label.active > input").attr("value")
+                                ,$(".questionSix > label.active > input").attr("value")
+                                ,$(".questionSeven > label.active > input").attr("value")
+                                ,$(".questionEight > label.active > input").attr("value")
+                                ,$(".questionNine > label.active > input").attr("value")
+                                ,$(".questionTen > label.active > input").attr("value")
+                    ]};
+
+                    var currentURL = window.location.origin;
+                    console.log("Current URL: " + currentURL);
+                    console.log(userAnswers);
+                    $.post(currentURL + "/api/friends",userAnswers,function(data){
+                        $("#matchName").text(data.name);
+                        $("#matchImg").attr("src",data.photo);
+                        // console.log("In the Post");
+                        $("#bestMatchModal").modal('toggle');
+
+                    });
+
+                }else{
+                    alert("PLease be sure to fill out all form field");
+                }
+
+
+            });
+
+            function printDataToConsole(){
+                $(".form-control").each(function(){
+                    console.log($(this).val());
+                });
+
+                $(".btn-group > label.active > input").each(function(){
+                    console.log($(this).attr("value"));
+                });
+            }
+        
+        </script>
+        
+
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>
